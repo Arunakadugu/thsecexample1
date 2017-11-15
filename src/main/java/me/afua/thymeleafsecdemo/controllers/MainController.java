@@ -28,7 +28,7 @@ public class MainController {
     @RequestMapping(value="/register", method = RequestMethod.POST)
     public String processRegistrationPages(@Valid @ModelAttribute("userData") UserData userData, BindingResult result, Model model){
         model.addAttribute("userData", userData);
-        System.out.println(result);
+        System.out.println(result.toString());
         if(result.hasErrors()){
             return "registration";
         }

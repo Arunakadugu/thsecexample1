@@ -65,7 +65,7 @@ body {
 }
 
 a {
-  color: #2ca8ff;
+  color: #101010;
 }
 a:hover, a:focus {
   color: #109cff;
@@ -74,6 +74,7 @@ a:hover, a:focus {
 
 a:focus, a:active {
   outline: 0;
+  color:black;
 }
 
 .navbar {
@@ -1637,6 +1638,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
   }
   .nav > li{
     text-align: center;
+    color: yellow;
+    background-color: yellow;
   }
   .navbar-toggle .icon-bar{
     background: white;

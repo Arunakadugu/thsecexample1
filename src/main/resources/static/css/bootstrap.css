@@ -43,10 +43,14 @@ audio:not([controls]) {
 template {
   display: none;
 }
-a {
-  background-color: transparent;
+a:link {
+  background-color:transparent;
 }
-a:active,
+a:active{
+
+  background-color:yellow;
+  outline:0;
+}
 a:hover {
   outline: 0;
 }
@@ -244,6 +248,7 @@ th {
   }
   .navbar {
     display: none;
+
   }
   .btn > .caret,
   .dropup > .btn > .caret {
@@ -3676,6 +3681,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+
+  /*background-color: yellow;*/
 }
 .nav > li {
   position: relative;
@@ -4026,6 +4033,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-nav {
   margin: 7.5px -15px;
+
 }
 .navbar-nav > li > a {
   padding-top: 10px;
@@ -4062,6 +4070,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
   .navbar-nav > li {
     float: left;
+    background-color: yellow;
+
   }
   .navbar-nav > li > a {
     padding-top: 15px;
@@ -4220,7 +4230,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #555;
-  background-color: #e7e7e7;
+
+  /*background-color: #e7e7e7;*/
+  background-color: yellow;
 }
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,
@@ -4316,7 +4328,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
   color: #fff;
-  background-color: #080808;
+  background-color: yellow;
 }
 .navbar-inverse .navbar-nav > .disabled > a,
 .navbar-inverse .navbar-nav > .disabled > a:hover,
